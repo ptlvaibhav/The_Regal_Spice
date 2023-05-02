@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pay</title>
+    <link rel="stylesheet" href="./CSS/pay_style.css">
+</head>
+<body>
+        <div class="topbar">
+            <div class="container">
+                <nav class="navbar">
+                    <button class="close-btn">x</button>
+                    <a href="index.html" ><img src="images/logo.png" width="100"height="100"></a>
+                    <ul class="navbar-list">
+                        <li class="navbar-item">
+                            <a href="index.html" class="navbar-link hover-underline ">
+                                <div class="separator"></div>
+                                <span class="span">Home</span>
+                            </a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="menu.html" target="_blank" class="navbar-link hover-underline ">
+                                <div class="separator"></div>
+                                <span class="span">Menus</span>
+                            </a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="chef.html" target="_blank" class="navbar-link hover-underline ">
+                                <div class="separator"></div>
+                                <span class="span"> Chefs</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="contact.html" target="_blank" target="_blank" class="navbar-link hover-underline active">
+                                <div class="separator"></div>
+                                <span class="span">Contact Us</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="book.html" target="_blank" class="btn btn-secondary">
+                        <span class="text text-1">Find A Table</span>
+                        <span class="text text-2" aria-hidden="true"> Find A Table</span>
+                    </a>
+                    <button class="nav-open-btn" aria-label="open Menus">
+                        <span class="line line-1"></span>
+                        <span class="line line-2"></span>
+                        <span class="line line-3"></span> 
+                    </button>
+                    <div class="overlay"></div>
+                </nav>
+            </div>
+        </div>
+    <center><section class="section testi text-center has-bg-image" aria-label="testimonials">
+            <div class="profile">
+                <img src="images/logo.png" width="100" height="100" loading="lazy" alt="Restaurant Logo"
+                  class="img">
+    
+                <p class="label-2 profile-name">The Regal Spice</p>
+            </div>
+        </div>
+    </section>
+    <section class="paymeny">
+        <div class="container">
+            <div class="form payment-form bg-black-10">
+                <form action="" class="form-left">
+                    <h2 class="headline-1 text-center">Payment Form</h2>
+                    <p class="form-text text-center">
+                        Booking request
+                        <a href="tel:+11234567890" class="link">+1 123 456 7890</a>&nbsp;or fill out the order form</p>
+                    <div class="input-wrapper">
+                        <input type="text" name="name" placeholder="Your Name" autocomplete="off" class="input-field">
+                        <input type="tel" name="phone" placeholder="Phone Number" autocomplete="off" class="input-field">
+                    </div>
+                    <div class="input-wrapper">
+                        <div class="icon-wapper">
+                            <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+                            <input type="date" name="payment-date" class="input-field">
+                            <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                        </div>
+                    </div>
+                    <textarea name="message" placeholder="Message" class="input-field"></textarea>
+                    <!-- <button type="submit" class="btn btn-secondary">
+                        <span class="text text-1">Book A Table</span>
+                    </button> -->
+                </form>
+            </div>
+        </div>
+    </section>  </center>
+</body>
+</html>

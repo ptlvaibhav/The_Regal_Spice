@@ -1,0 +1,132 @@
+/* Common CSS in All pages */
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{ list-style: none;} 
+
+a,
+img,
+data,
+span,
+input,
+button,
+select,
+icon-icon,
+textarea{ display: block;}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+img { height: auto;}
+
+input,
+button,
+section,
+textarea {
+  background: none;
+  border: none;
+  font: inherit;
+}
+
+input,
+select,
+textarea{
+  width: 100%;
+  outline: none;
+}
+
+button{ cursor: pointer;}
+
+address { font-style: normal;}
+
+html{
+  font-size: 10px;
+  scroll-behavior:smooth;
+}
+
+::-webkit-scrollbar { width: 5px; }
+
+::-webkit-scrollbar-track { background-color: transparent; }
+
+::-webkit-scrollbar-thumb { background-color: hsl(38, 61%, 73%); }
+
+
+.display-1,
+.headline-1,
+.headline-2,
+.title-1,
+.title-2,
+.title-3,
+.title-4 {
+  color: hsla(0, 0%, 100%, 1);
+  font-family: Forum;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+
+.display-1 {
+  font-size: calc(1.3rem + 6.7vw);
+  line-height: 1em;
+}
+
+.headline-1 { font-size: calc(2rem + 2.5vw); }
+
+.headline-2 {
+  font-size: calc(1.3rem + 2.4vw);
+  line-height: 1.4em;
+}
+
+.title-1 { font-size: calc(1.6rem + 1.2vw); }
+
+.title-2 { font-size: 2.2rem; }
+
+.title-3 { font-size: 2.1rem; }
+
+.title-4 { font-size: calc(1.6rem + 1.2vw); }
+
+.body-1 {
+  font-size: 2.4rem;
+  line-height: 1.4em;
+}
+
+.body-2 {
+  font-size: 1.6rem;
+  line-height: 1.6em;
+}
+
+.body-3 { font-size: 1.8rem; }
+
+.body-4 { font-size: 1.6rem; }
+
+.label-1 { font-size: 1.4rem; }
+
+.label-2 { font-size: 1.2rem; }
+
+
+.container { padding-inline: 16px; }
+
+.separator {
+  width: 8px;
+  height: 8px;
+  border: 1px solid hsl(38, 61%, 73%);
+  transform: rotate(45deg);
+}
+
+.contact-label { font-weight: 700; }
+
+.contact-number {
+  color: hsl(38, 61%, 73%);
+  max-width: max-content;
+  margin-inline: auto;
+}
+
+
+
+.bg-black-10 { background-color: hsla(30, 8%, 5%, 1); }

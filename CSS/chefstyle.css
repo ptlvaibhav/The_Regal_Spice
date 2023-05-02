@@ -1,0 +1,44 @@
+.event-card .card-content {
+  border-radius: 30px;
+  background-image: linear-gradient(to top,hsla(0, 0%, 0%, 0.9),hsla(0, 0%, 0%, 0.7),transparent );
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 35px 35px 25px;
+}
+.event-card .publish-date {
+  position: absolute;
+  top: 30px;
+  left: 25px;
+  padding: 5px 10px;
+  color: hsl(38, 61%, 73%);
+  background-color: hsla(0, 0%, 0%, 1);
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  line-height: 14px;
+}
+.event-card .card-subtitle {
+  color: hsl(38, 61%, 73%);
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.4em;
+  margin-block-end: 5px;
+}
+.event-card .card-banner .img-cover { transition: 500ms ease; }
+.event-card:is(:hover, :focus-within) .img-cover { transform: scale(1.05); }
+.event .btn {
+  margin-inline: auto;
+  margin-block-start: 40px;
+}
+:is(.service, .event) .container { max-width: unset; }  
+:is(.service, .event) .grid-list { grid-template-columns: repeat(3, 1fr); }
+:is(.service, .event) .grid-list li:last-child {
+  grid-column: auto;
+  width: 100%;
+} 
+.container,
+:is(.service, .event) .container {
+  max-width: 1200px;
+  width: 100%;
+  margin-inline: auto;
+}
